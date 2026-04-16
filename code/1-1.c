@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int target_array[2][5] = {{1,2,3,4,5}, {6,7,8,9,10}};
+    int target_array[2][5] = {{1,2,3,4,5}, {6,7,8,9,10}}; 
     int (*array_pointer)[5] = target_array;
     int a=10, b=20, c=30, d=40, e=50;
     int * pointer_array[5] = {&a, &b, &c, &d, &e};
