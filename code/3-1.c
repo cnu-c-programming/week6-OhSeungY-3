@@ -6,7 +6,7 @@ void print_array(int arr[][3]){
             printf("%d ", arr[i][j]);
         }
         printf("\n");
-    }
+    } 
     printf("\n");
 }
 
