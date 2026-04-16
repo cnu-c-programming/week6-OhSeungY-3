@@ -5,7 +5,7 @@ int main() {
     int* p = arr;
     int** pp = &p;
 
-    for(int i=0; i<6; i++){
+    for(int i=0; i<6; i++){ 
         printf("%d ", **pp + i);
     }
 
