@@ -6,7 +6,7 @@ int print_2d_arr(int* rows[], int row_size, int col_size){
             printf("%d ", **(rows + i) + j);
         }
         printf("\n");
-    }
+    } 
 }
 
 int main() {
